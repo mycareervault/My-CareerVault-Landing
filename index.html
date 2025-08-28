@@ -34,6 +34,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     
+    <!-- Font Loading -->
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" as="style">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap">
+    
     <!-- Preload critical resources -->
     <link rel="preload" href="/src/assets/logo.svg" as="image">
     
@@ -82,15 +86,49 @@
         }
         
         body {
-            font-family: 'Poppins', sans-serif;
+            font-family: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
             line-height: 1.6;
             color: #0B0914;
             background-color: #ffffff;
+            font-weight: 400;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            text-rendering: optimizeLegibility;
         }
         
         /* Ensure smooth scrolling */
         html {
             scroll-behavior: smooth;
+        }
+        
+        /* Font Weight Fixes for All Devices */
+        h1, h2, h3, h4, h5, h6 {
+            font-weight: 600 !important;
+        }
+        
+        .title, .subtitle {
+            font-weight: 600 !important;
+        }
+        
+        /* Mobile-specific adjustments */
+        @media (max-width: 768px) {
+            body {
+                font-weight: 500 !important;
+            }
+            
+            h1, h2, h3, h4, h5, h6 {
+                font-weight: 600 !important;
+            }
+            
+            .title, .subtitle {
+                font-weight: 600 !important;
+            }
+        }
+        
+        /* Font Display Swap for Better Loading */
+        @font-face {
+            font-family: 'Poppins';
+            font-display: swap;
         }
     </style>
 </head>
