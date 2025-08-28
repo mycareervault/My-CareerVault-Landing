@@ -1,16 +1,10 @@
 import { Badge, Container, Group, Text, Title } from '@mantine/core';
-import { Dots } from './Dots.tsx';
 import classes from './HeroText.module.css';
 import Logo from '../../assets/logo.svg';
 
 export function HeroText() {
   return (
-    <Container className={classes.wrapper} size="lg">
-      <Dots className={classes.dots} style={{ left: 0, top: 0 }} />
-      <Dots className={classes.dots} style={{ left: 60, top: 0 }} />
-      <Dots className={classes.dots} style={{ left: 0, top: 140 }} />
-      <Dots className={classes.dots} style={{ right: 0, top: 60 }} />
-
+    <Container className={classes.wrapper} size="fluid">
       <div className={classes.inner}>
         <Group justify="center" mb={20}>
           <Badge variant="filled" size="lg" color="primary">

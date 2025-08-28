@@ -1,0 +1,17 @@
+.footer {
+  background: linear-gradient(180deg, #f8f9fa 0%, #e9ecef 100%);
+  border-top: 1px solid rgba(76, 109, 254, 0.1);
+  margin-top: 60px;
+}
+
+.footer .mantine-Container-root {
+  max-width: 1200px;
+}
+
+@media (max-width: 48em) {
+  .footer .mantine-Group-root {
+    flex-direction: column;
+    gap: 1rem;
+    text-align: center;
+  }
+}

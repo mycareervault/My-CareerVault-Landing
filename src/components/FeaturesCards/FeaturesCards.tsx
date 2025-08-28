@@ -92,7 +92,6 @@ export function FeaturesCards() {
           Common Challenges
         </Badge>
       </Group>
-
       <Title order={2} className={classes.title} ta="center" mt="sm">
         Struggling with document management?
       </Title>
