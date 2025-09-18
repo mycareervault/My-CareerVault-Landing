@@ -43,7 +43,7 @@ const solutions = [
   },
   {
     title: 'AI-Powered Organization',
-    description: 'Automatically categorizes offer letters, payslips, IDs, resumes, and more.',
+    description: 'AI automatically detects and categorizes offer letters, payslips, IDs, resumes — no manual sorting needed.',
     icon: IconBrain,
   },
   {
@@ -55,7 +55,7 @@ const solutions = [
     title: 'One-Click Sharing',
     description: 'Share documents or full packages with recruiters, HR, or banks securely.',
     icon: IconShare,
-  }
+  },
 ];
 
 export function FeaturesCards() {
@@ -93,11 +93,11 @@ export function FeaturesCards() {
         </Badge>
       </Group>
       <Title order={2} className={classes.title} ta="center" mt="sm">
-        Struggling with document management?
+        Tired of Managing Documents Manually?
       </Title>
 
       <Text c="dimmed" className={classes.description} ta="center" mt="md">
-        Most professionals face these common challenges when managing their career documents
+        From lost offer letters to scattered payslips, managing career documents by hand is stressful, insecure, and time-consuming.
       </Text>
 
       <SimpleGrid cols={{ base: 1, sm: 2, lg: 4 }} spacing="xl" mt={50}>
@@ -120,11 +120,11 @@ export function FeaturesCards() {
       </Group>
 
       <Title order={2} className={classes.title} ta="center" mt="sm">
-        Intelligent solutions for modern professionals
+        AI-Powered Solutions for Modern Professionals
       </Title>
 
       <Text c="dimmed" className={classes.description} ta="center" mt="md">
-        Transform how you manage and share your professional documents
+        Automatically classify, secure, and gain insights from your career documents with the power of AI — all in one secure vault.
       </Text>
 
       <SimpleGrid cols={{ base: 1, sm: 2, lg: 4 }} spacing="xl" mt={50}>

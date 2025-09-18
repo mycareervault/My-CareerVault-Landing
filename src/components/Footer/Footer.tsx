@@ -15,7 +15,7 @@ export function Footer() {
           </div>
           <div>
             <Text size="sm" c="dimmed">
-              Empowering professionals worldwide
+              AI-powered document intelligence, built with enterprise-grade security.
             </Text>
           </div>
         </Group>

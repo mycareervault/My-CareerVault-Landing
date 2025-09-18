@@ -13,15 +13,15 @@ export function HeroText() {
         </Group>
         <img src={Logo} alt="MyCareerVault Logo" className={classes.logo} style={{ marginBottom: '30px' }} />
         <Title className={classes.title}>
-          Take Control of Your{' '}
+          AI-Powered{' '}
           <Text component="span" className={classes.highlight} inherit>
-            Career Documents
+            Career Vault
           </Text>
         </Title>
 
         <Container p={0} size="sm">
           <Text size="lg" c="dimmed" className={classes.description}>
-            A secure, intelligent vault for all your professional records.
+            Automatically classify, secure, and gain insights from your professional documents.
           </Text>
         </Container>
       </div>
