@@ -1,119 +1,70 @@
-# My CareerVault Landing
+# Getting Started with Create React App
 
-A modern, responsive landing page for CareerVault built with React, TypeScript, and Mantine UI components.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## 🚀 Features
+## Available Scripts
 
-- **Modern Design**: Clean, professional landing page with gradient accents
-- **Responsive Layout**: Optimized for all device sizes
-- **Component-Based Architecture**: Built with reusable React components
-- **TypeScript**: Full type safety and better development experience
-- **Mantine UI**: Beautiful, accessible UI components
-- **Custom Styling**: Tailored CSS modules and custom components
+In the project directory, you can run:
 
-## 🛠️ Tech Stack
+### `npm start`
 
-- **Frontend**: React 18 + TypeScript
-- **UI Framework**: Mantine Core v8
-- **Build Tool**: Rsbuild
-- **Styling**: CSS Modules + PostCSS
-- **Fonts**: Poppins (Google Fonts)
-- **Code Quality**: ESLint + Biome + Prettier
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-## 📁 Project Structure
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-```
-src/
-├── components/
-│   ├── ComingSoon/          # Coming soon section
-│   ├── FeaturesCards/       # Feature highlights
-│   └── HeroText/           # Main hero section
-├── assets/                  # Static assets
-├── App.tsx                 # Main application component
-└── index.tsx               # Application entry point
-```
+### `npm test`
 
-## 🚀 Getting Started
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### Prerequisites
+### `npm run build`
 
-- Node.js (v16 or higher)
-- npm or yarn
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-### Installation
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-1. Clone the repository:
-```bash
-git clone <your-repo-url>
-cd My-CareerVault-Landing
-```
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-2. Install dependencies:
-```bash
-npm install
-```
+### `npm run eject`
 
-### Development
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-Start the development server:
-```bash
-npm start
-```
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-The app will be available at [http://localhost:3000](http://localhost:3000).
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-### Building for Production
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-Build the app for production:
-```bash
-npm run build
-```
+## Learn More
 
-Preview the production build locally:
-```bash
-npm run preview
-```
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-## 🎨 Available Scripts
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-- `npm start` - Start development server
-- `npm run build` - Build for production
-- `npm run preview` - Preview production build
-- `npm run lint` - Run ESLint
-- `npm run check` - Run Biome code formatter
-- `npm run format` - Run Prettier
+### Code Splitting
 
-## 🎯 Components
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### HeroText
-Main landing section with animated text and call-to-action elements.
+### Analyzing the Bundle Size
 
-### FeaturesCards
-Showcase of key features and benefits with interactive cards.
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### ComingSoon
-Coming soon section for future features or announcements.
+### Making a Progressive Web App
 
-## 🎨 Customization
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-The project uses a custom theme with:
-- **Primary Color**: #4C6DFE (Blue)
-- **Secondary Color**: #011365 (Dark Blue)
-- **Text Color**: #0B0914 (Dark Gray)
-- **Font**: Poppins (Sans-serif)
+### Advanced Configuration
 
-## 📝 Contributing
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
+### Deployment
 
-## 📄 License
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+### `npm run build` fails to minify
 
-## 🤝 Support
-
-For support or questions, please open an issue in the repository or contact the development team.
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
